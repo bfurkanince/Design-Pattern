@@ -12,6 +12,8 @@ public class App {
 
     public static void main(String[] args) {
 
+        //İki uyumsuz interface’i beraber kullanmamızı sağlar.Daha önce yazılmış olan kodları düzenlemek zorunda kalmayız.
+
         AndroidCharger androidCharger = new AndroidCharger();
         AndroidPhone androidPhone = new OnePlus5();
         androidCharger.charge(androidPhone);
